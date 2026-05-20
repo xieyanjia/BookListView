@@ -110,27 +110,27 @@
             // 
             this.imgL.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imgL.ImageStream")));
             this.imgL.TransparentColor = System.Drawing.Color.Transparent;
-            this.imgL.Images.SetKeyName(0, "Book1.bmp");
-            this.imgL.Images.SetKeyName(1, "Book2.bmp");
-            this.imgL.Images.SetKeyName(2, "Book3.bmp");
-            this.imgL.Images.SetKeyName(3, "Book4.bmp");
-            this.imgL.Images.SetKeyName(4, "Book5.bmp");
-            this.imgL.Images.SetKeyName(5, "Book6.bmp");
-            this.imgL.Images.SetKeyName(6, "Book7.bmp");
-            this.imgL.Images.SetKeyName(7, "Book8.bmp");
+            this.imgL.Images.SetKeyName(0, "Book1.jpg");
+            this.imgL.Images.SetKeyName(1, "Book2.jpg");
+            this.imgL.Images.SetKeyName(2, "Book3.jpg");
+            this.imgL.Images.SetKeyName(3, "Book4.jpg");
+            this.imgL.Images.SetKeyName(4, "Book5.jpg");
+            this.imgL.Images.SetKeyName(5, "Book6.jpg");
+            this.imgL.Images.SetKeyName(6, "Book7.jpg");
+            this.imgL.Images.SetKeyName(7, "Book8.jpg");
             // 
             // imgS
             // 
             this.imgS.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imgS.ImageStream")));
             this.imgS.TransparentColor = System.Drawing.Color.Transparent;
-            this.imgS.Images.SetKeyName(0, "Book1.bmp");
-            this.imgS.Images.SetKeyName(1, "Book2.bmp");
-            this.imgS.Images.SetKeyName(2, "Book3.bmp");
-            this.imgS.Images.SetKeyName(3, "Book4.bmp");
-            this.imgS.Images.SetKeyName(4, "Book5.bmp");
-            this.imgS.Images.SetKeyName(5, "Book6.bmp");
-            this.imgS.Images.SetKeyName(6, "Book7.bmp");
-            this.imgS.Images.SetKeyName(7, "Book8.bmp");
+            this.imgS.Images.SetKeyName(0, "Book1.jpg");
+            this.imgS.Images.SetKeyName(1, "Book2.jpg");
+            this.imgS.Images.SetKeyName(2, "Book3.jpg");
+            this.imgS.Images.SetKeyName(3, "Book4.jpg");
+            this.imgS.Images.SetKeyName(4, "Book5.jpg");
+            this.imgS.Images.SetKeyName(5, "Book6.jpg");
+            this.imgS.Images.SetKeyName(6, "Book7.jpg");
+            this.imgS.Images.SetKeyName(7, "Book8.jpg");
             // 
             // pnlView
             // 
