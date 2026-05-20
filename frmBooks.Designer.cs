@@ -52,9 +52,9 @@
             this.pnlTools.Controls.Add(this.grpView);
             this.pnlTools.Dock = System.Windows.Forms.DockStyle.Right;
             this.pnlTools.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.pnlTools.Location = new System.Drawing.Point(447, 5);
+            this.pnlTools.Location = new System.Drawing.Point(628, 5);
             this.pnlTools.Name = "pnlTools";
-            this.pnlTools.Size = new System.Drawing.Size(200, 490);
+            this.pnlTools.Size = new System.Drawing.Size(200, 435);
             this.pnlTools.TabIndex = 0;
             // 
             // grpBorrow
@@ -66,7 +66,7 @@
             this.grpBorrow.Location = new System.Drawing.Point(0, 70);
             this.grpBorrow.Name = "grpBorrow";
             this.grpBorrow.Padding = new System.Windows.Forms.Padding(5);
-            this.grpBorrow.Size = new System.Drawing.Size(200, 420);
+            this.grpBorrow.Size = new System.Drawing.Size(200, 365);
             this.grpBorrow.TabIndex = 1;
             this.grpBorrow.TabStop = false;
             this.grpBorrow.Text = "借書清單";
@@ -78,7 +78,7 @@
             this.lstBorrow.ItemHeight = 21;
             this.lstBorrow.Location = new System.Drawing.Point(5, 27);
             this.lstBorrow.Name = "lstBorrow";
-            this.lstBorrow.Size = new System.Drawing.Size(190, 388);
+            this.lstBorrow.Size = new System.Drawing.Size(190, 333);
             this.lstBorrow.TabIndex = 0;
             // 
             // grpView
@@ -141,18 +141,18 @@
             this.pnlView.Location = new System.Drawing.Point(5, 5);
             this.pnlView.Name = "pnlView";
             this.pnlView.Padding = new System.Windows.Forms.Padding(5);
-            this.pnlView.Size = new System.Drawing.Size(442, 490);
+            this.pnlView.Size = new System.Drawing.Size(623, 435);
             this.pnlView.TabIndex = 2;
             // 
             // lvwBooks
             // 
             this.lvwBooks.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lvwBooks.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.lvwBooks.Font = new System.Drawing.Font("微軟正黑體", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.lvwBooks.HideSelection = false;
             this.lvwBooks.LargeImageList = this.imgL;
             this.lvwBooks.Location = new System.Drawing.Point(5, 5);
             this.lvwBooks.Name = "lvwBooks";
-            this.lvwBooks.Size = new System.Drawing.Size(432, 480);
+            this.lvwBooks.Size = new System.Drawing.Size(613, 425);
             this.lvwBooks.SmallImageList = this.imgS;
             this.lvwBooks.TabIndex = 4;
             this.lvwBooks.UseCompatibleStateImageBehavior = false;
@@ -163,7 +163,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.RoyalBlue;
-            this.ClientSize = new System.Drawing.Size(652, 500);
+            this.ClientSize = new System.Drawing.Size(833, 445);
             this.Controls.Add(this.pnlView);
             this.Controls.Add(this.pnlTools);
             this.Name = "frmBooks";

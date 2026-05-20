@@ -12,12 +12,12 @@ namespace BookListView
 {
     public partial class frmBooks : Form
     {
-        string[] b_name = { "三國演義", "西遊記","唐詩三百首","楚辭",
-                "西廂記","水滸傳","紅樓夢", "牡丹亭" }; //書名
-        string[] author = {"羅貫中", "吳承恩", "孫洙", "劉向",
-                "王實甫","施耐庵", "曹雪芹", "湯顯祖" }; //作者
-        string[] kind = { "章回小說", "章回小說", "詩選", "詩歌", "戲曲",
-                "章回小說","章回小說", "戲曲" }; //類別
+        string[] b_name = { "Pride and Prejudice", "Great Big Beautiful Life","Outlander","The Silent Patient",
+                "Gone Girl","The Shining","The Haunting of Hill House", "Little Women" }; //書名
+        string[] author = {"Jane Austen", "Emily Henry", "Diana Gabaldon", "Alex Michaelides",
+                "Gillian Flynn","Stephen King", "Shirley Jackson", "Louisa May Alcott" }; //作者
+        string[] kind = { "愛情", "愛情", "愛情", "懸疑", "懸疑",
+                "恐怖","恐怖", "愛情" }; //類別
 
         public frmBooks()
         {
@@ -33,9 +33,9 @@ namespace BookListView
             cmbView.Items.Add("大圖示加詳細資料");
             cmbView.SelectedIndex = 0; //預設選取第一個項目
 
-            lvwBooks.Columns.Add("書名", 110); //新增 書名 欄位，寬度為110
-            lvwBooks.Columns.Add("作者", 60); //新增 作者 欄位，寬度為60
-            lvwBooks.Columns.Add("類別", 90); //新增 類別 欄位
+            lvwBooks.Columns.Add("書名", 230); //新增 書名 欄位，寬度為110
+            lvwBooks.Columns.Add("作者", 160); //新增 作者 欄位，寬度為60
+            lvwBooks.Columns.Add("類別", 60); //新增 類別 欄位
             lvwBooks.BeginUpdate(); //暫停重繪
             for (int i = 0; i < b_name.Length; i++)
             { //宣告一個ListViewItem物件
