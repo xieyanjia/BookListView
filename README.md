@@ -30,3 +30,10 @@
 5. 查看清單：確認後，該書籍的名稱就會成功加入到右側的「借書清單」中。
 
    - 注意：如果您對同一本書再次連點兩下，系統會自動偵測並攔截，不會重複加入清單。
+  
+<img width="844" height="486" alt="image" src="https://github.com/user-attachments/assets/bc5a135b-b5e5-47bc-b16d-80b528686fb0" />
+
+<img width="845" height="486" alt="image" src="https://github.com/user-attachments/assets/158a2f63-86cb-445c-be94-5586edb6df1c" />
+
+<img width="843" height="485" alt="image" src="https://github.com/user-attachments/assets/e36fa17f-069f-411e-8c72-95c8e80f6422" />
+
